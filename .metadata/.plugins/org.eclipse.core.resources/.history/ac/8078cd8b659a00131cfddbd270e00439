@@ -1,6 +1,4 @@
 import java.util.Scanner;
-import javax.swing.JOptionPane;
-
 
 public class Hello_world {
 
@@ -8,7 +6,6 @@ public class Hello_world {
 		// TODO Auto-generated method stub
 		String Nome;
 		Scanner ler = new Scanner(System.in);
-		
 		
 		System.out.println("Informe Seu Nome:");
 		Nome = ler.next();

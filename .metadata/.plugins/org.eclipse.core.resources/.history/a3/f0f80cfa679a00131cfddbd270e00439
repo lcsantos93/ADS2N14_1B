@@ -10,9 +10,9 @@ public class Hello_world {
 		Scanner ler = new Scanner(System.in);
 		
 		
-		System.out.println("Informe Seu Nome:");
+		JOptionPane.showInputDialog("Informe Seu Nome:");
 		Nome = ler.next();
-		System.out.println("Hello "+ Nome);
+		JOptionPane.showInternalMessageDialog("Hello "+ Nome);
 	}
 
 }

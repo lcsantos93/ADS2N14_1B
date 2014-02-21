@@ -11,7 +11,7 @@ public class Hello_world {
 		
 		
 		System.out.println("Informe Seu Nome:");
-		Nome = ler.next();
+	//	Nome = ler.next();
 		System.out.println("Hello "+ Nome);
 	}
 
