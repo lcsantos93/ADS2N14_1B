@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="2.0.3" sequence="1" timestamp="1394751039926" analysisTimestamp="1394751039539" release="">
+  <Project projectName="Pessoa">
+    <Jar>C:\Users\Lucas\git\ADS2N14_1B\Pessoa\bin</Jar>
+    <AuxClasspathEntry>C:\Users\Lucas\git\ADS2N14_1B\Pessoa\bin</AuxClasspathEntry>
+    <SrcDir>C:\Users\Lucas\git\ADS2N14_1B\Pessoa\src</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 13 Mar 2014 19:50:39 -0300" total_classes="0" referenced_classes="0" total_bugs="0" total_size="0" num_packages="0" vm_version="23.21-b01" cpu_seconds="0.59" clock_seconds="0.39" peak_mbytes="259.22" alloc_mbytes="455.12" gc_seconds="0.00">
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="165" invocations="152" avgMicrosecondsPerInvocation="1090" maxMicrosecondsPerInvocation="9564" standardDeviationMircosecondsPerInvocation="1603"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="147" invocations="2" avgMicrosecondsPerInvocation="73799" maxMicrosecondsPerInvocation="127833" standardDeviationMircosecondsPerInvocation="54034"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1394751039926" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

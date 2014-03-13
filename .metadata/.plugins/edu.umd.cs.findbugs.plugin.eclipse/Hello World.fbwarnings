@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="2.0.3" sequence="1" timestamp="1394750967118" analysisTimestamp="1394750963631" release="">
+  <Project projectName="Hello World">
+    <Jar>C:\Users\Lucas\git\ADS2N14_1B\Hello World\bin</Jar>
+    <AuxClasspathEntry>C:\Users\Lucas\git\ADS2N14_1B\Hello World\bin</AuxClasspathEntry>
+    <SrcDir>C:\Users\Lucas\git\ADS2N14_1B\Hello World\src</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" abbrev="DLS" category="STYLE" first="1">
+    <Class classname="Hello_world">
+      <SourceLine classname="Hello_world" sourcefile="Hello_world.java" sourcepath="Hello_world.java"/>
+    </Class>
+    <Method classname="Hello_world" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Hello_world" start="9" end="16" startBytecode="0" endBytecode="19" sourcefile="Hello_world.java" sourcepath="Hello_world.java"/>
+    </Method>
+    <LocalVariable name="ler" register="2" pc="13" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Hello_world" start="10" end="10" startBytecode="12" endBytecode="12" sourcefile="Hello_world.java" sourcepath="Hello_world.java"/>
+    <SourceLine classname="Hello_world" start="10" end="10" startBytecode="12" endBytecode="12" sourcefile="Hello_world.java" sourcepath="Hello_world.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="ler"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N" first="1">
+    <Class classname="Hello_world">
+      <SourceLine classname="Hello_world" sourcefile="Hello_world.java" sourcepath="Hello_world.java"/>
+    </Class>
+    <Method classname="Hello_world" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Hello_world" start="9" end="16" startBytecode="0" endBytecode="117" sourcefile="Hello_world.java" sourcepath="Hello_world.java"/>
+    </Method>
+    <Method classname="java.util.Scanner" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.Scanner"/>
+    </Method>
+    <SourceLine classname="Hello_world" start="10" end="10" startBytecode="9" endBytecode="9" sourcefile="Hello_world.java" sourcepath="Hello_world.java"/>
+    <SourceLine classname="Hello_world" start="10" end="10" startBytecode="9" endBytecode="9" sourcefile="Hello_world.java" sourcepath="Hello_world.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 26 Feb 2014 13:00:46 -0300" total_classes="1" referenced_classes="15" total_bugs="2" total_size="9" num_packages="1" vm_version="23.21-b01" cpu_seconds="9.14" clock_seconds="3.50" peak_mbytes="250.51" alloc_mbytes="455.12" gc_seconds="0.04" priority_1="2">
+    <PackageStats package="" total_bugs="2" total_types="1" total_size="9" priority_1="2">
+      <ClassStats class="Hello_world" sourceFile="Hello_world.java" interface="false" size="9" bugs="2" priority_1="2"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="1152" invocations="525" avgMicrosecondsPerInvocation="2195" maxMicrosecondsPerInvocation="46689" standardDeviationMircosecondsPerInvocation="3562"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="528" invocations="525" avgMicrosecondsPerInvocation="1006" maxMicrosecondsPerInvocation="54893" standardDeviationMircosecondsPerInvocation="3374"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="399" invocations="15" avgMicrosecondsPerInvocation="26628" maxMicrosecondsPerInvocation="213177" standardDeviationMircosecondsPerInvocation="52125"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="250" invocations="93" avgMicrosecondsPerInvocation="2696" maxMicrosecondsPerInvocation="19576" standardDeviationMircosecondsPerInvocation="3002"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="248" invocations="2" avgMicrosecondsPerInvocation="124363" maxMicrosecondsPerInvocation="191436" standardDeviationMircosecondsPerInvocation="67073"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ExplicitSerialization" totalMilliseconds="168" invocations="15" avgMicrosecondsPerInvocation="11236" maxMicrosecondsPerInvocation="136990" standardDeviationMircosecondsPerInvocation="34022"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1394750967116" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

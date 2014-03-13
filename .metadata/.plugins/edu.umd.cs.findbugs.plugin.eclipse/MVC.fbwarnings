@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="2.0.3" sequence="1" timestamp="1394751033229" analysisTimestamp="1394751032339" release="">
+  <Project projectName="MVC">
+    <Jar>C:\Users\Lucas\git\ADS2N14_1B\MVC\bin</Jar>
+    <AuxClasspathEntry>C:\Users\Lucas\git\ADS2N14_1B\MVC\bin</AuxClasspathEntry>
+    <SrcDir>C:\Users\Lucas\git\ADS2N14_1B\MVC\src</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 11 Mar 2014 22:03:26 -0300" total_classes="4" referenced_classes="12" total_bugs="0" total_size="12" num_packages="4" vm_version="23.21-b01" cpu_seconds="1.69" clock_seconds="0.89" peak_mbytes="259.13" alloc_mbytes="455.12" gc_seconds="0.03">
+    <PackageStats package="com.mvc.app" total_bugs="0" total_types="1" total_size="3">
+      <ClassStats class="com.mvc.app.AgendaTelefonica" sourceFile="AgendaTelefonica.java" interface="false" size="3" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.mvc.controller" total_bugs="0" total_types="1" total_size="3">
+      <ClassStats class="com.mvc.controller.PessoaController" sourceFile="PessoaController.java" interface="false" size="3" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.mvc.model" total_bugs="0" total_types="1" total_size="3">
+      <ClassStats class="com.mvc.model.Pessoa" sourceFile="Pessoa.java" interface="false" size="3" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.mvc.view" total_bugs="0" total_types="1" total_size="3">
+      <ClassStats class="com.mvc.view.Pessoa" sourceFile="Pessoa.java" interface="false" size="3" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="319" invocations="279" avgMicrosecondsPerInvocation="1144" maxMicrosecondsPerInvocation="41598" standardDeviationMircosecondsPerInvocation="2929"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="183" invocations="2" avgMicrosecondsPerInvocation="91753" maxMicrosecondsPerInvocation="144765" standardDeviationMircosecondsPerInvocation="53012"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="79" invocations="279" avgMicrosecondsPerInvocation="283" maxMicrosecondsPerInvocation="571" standardDeviationMircosecondsPerInvocation="77"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="45" invocations="12" avgMicrosecondsPerInvocation="3755" maxMicrosecondsPerInvocation="18374" standardDeviationMircosecondsPerInvocation="5494"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="36" invocations="33" avgMicrosecondsPerInvocation="1120" maxMicrosecondsPerInvocation="3260" standardDeviationMircosecondsPerInvocation="877"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1394751033229" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>
