@@ -1,0 +1,8 @@
+
+public class Lampada {
+
+String Ligada;
+String Desligada;
+
+
+}

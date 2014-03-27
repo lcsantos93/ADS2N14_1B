@@ -1,0 +1,49 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ArrayList <Contato> contatos = new ArrayList <Contato>();
+		
+		 
+		int op = 0;
+	        Scanner ler = new Scanner(System.in);
+		 switch(op)
+	        {
+	            case 1:
+	            {
+	                String Nome;
+	                String Telefone;
+	                String Endereco;
+	                
+	                System.out.println("Nome: ");
+	                Nome = ler.next();
+	                System.out.println("Telefone: ");
+	                Telefone = ler.next();
+	                System.out.println("Endereco: ");
+	                Endereco = ler.next();
+	                
+		
+	                Contato contact = new Contato (Nome, Telefone, Endereco);
+	                Contato.add(contact);
+	}
+	            case 2:
+	            {
+	                System.out.println("Listando Contatos...");
+	               
+	                for (int j =0;j<Contato.size();j++)
+	            
+	                   
+	                {
+	                System.out.println("----------------------------------");
+	                System.out.println("Nome: "+Contato.get(j).getNome());
+	                System.out.println("Telefone: "+Contato.get(j).getTelefone());
+	                System.out.println("Endereço: "+Contato.get(j).getEndereco());
+	               
+	                }
+	                break;
+	            }
+}
