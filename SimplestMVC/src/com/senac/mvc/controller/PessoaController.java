@@ -12,12 +12,11 @@ public class PessoaController {
 		contato = new Pessoa();
 		contato.setNome("Rafael");
 		contato.setTelefone("555-1234");
-		contato.setEndereco("Av.Sertorio-1335");
 	}
 	
 	public void exibirContato( ContatoView view )
 	{
-		view.printContato(contato.getNome(), contato.getTelefone(), contato.getEndereco());
+		view.printContato(contato.getNome(), contato.getTelefone());
 	}
 	
 }
