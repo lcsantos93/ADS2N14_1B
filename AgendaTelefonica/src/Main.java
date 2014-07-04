@@ -11,13 +11,15 @@ public class Main {
 		
 		Random geratel = new Random();
 		 
-        int telefone = geratel.nextInt(99999999);
+        int telefone = geratel.nextInt(123456789);
         
 
 		Random geranome = new Random();
 		 
-        long nome = geranome.nextLong();
-		 
+        float nome = geranome.nextFloat(contatos);
+		
+      
+        
 		int op = 0;
 	        Scanner ler = new Scanner(System.in);
 	        
@@ -38,7 +40,7 @@ public class Main {
 	                String Telefone;
 	                String Endereco;
 	                
-	                for (int r=0; r<5; r++)
+	                for (int r=0; r<2; r++)
 	                {
 	                	
 	                System.out.println("Nome: ");
@@ -57,20 +59,20 @@ public class Main {
 	            {
 	                System.out.println("Listando Contatos...");
 	               
-	            //    for (int j =0;j<contatos.size();j++)
+	            for (int j =0;j<contatos.size();j++)
 	            
 	                   
 	                {
 	                System.out.println("----------------------------------");
-	                
+	                /**
 	                System.out.println("Nome: "+nome);
 	                System.out.println("Telefone: "+telefone);
+	                */
 	                
-	                /**
-	                 System.out.println("Nome: "+contatos.get(j).getNome());
+	                System.out.println("Nome: "+contatos.get(j).getNome());
 	                System.out.println("Telefone: "+contatos.get(j).getTelefone());
 	                System.out.println("Endereço: "+contatos.get(j).getEndereco());
-	                */
+	                
 	                }
 	                break;
 	            }
