@@ -1,0 +1,37 @@
+package com.t1.model;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println("Listas Duplamentes encadeadas");
+
+		Scanner scanner = new Scanner(new FileReader("arquivo.txt"))
+				.useDelimiter("\\||\\n");
+		int op = 0;
+		do {
+			System.out.println("MENU PRINCIPAL:");
+			System.out.println("\n1. Exibir Contatos:");
+
+			switch (op) {
+			case 1: {
+				scanner.hasNext();
+				{
+					String Nome = scanner.next();
+					String Telefone = scanner.next();
+
+					System.out.println(Nome);
+					System.out.println(Telefone);
+
+				}
+			}
+
+			}
+
+		} while (op != 4);
+	}
+
+}

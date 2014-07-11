@@ -1,0 +1,45 @@
+package com.t1.model;
+
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.InputStreamReader;
+import java.util.Scanner;
+
+public class Main {
+
+
+
+	public static void main(String[] args)  {
+		// TODO Auto-generated method stub
+
+		System.out.println("Listas Duplamentes encadeadas");
+		
+		
+		int op = 0;
+        Scanner ler = new Scanner(System.in);
+		
+        FileInputStream stream = new FileInputStream("arquivo.txt");
+        InputStreamReader reader = new InputStreamReader(stream);
+        BufferedReader br = new BufferedReader(reader);
+        String linha = br.readLine();
+        
+		do {
+			System.out.println("MENU PRINCIPAL:");
+			System.out.println("\n1. Exibir Contatos:");
+			op = ler.nextInt();
+	        
+		switch (op) 
+		{
+			case 1: 
+			{
+				System.out.println("Teste");
+				break;
+			}
+			
+
+		}
+
+		} while (op != 4);
+	}
+
+}

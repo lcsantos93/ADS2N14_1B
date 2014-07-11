@@ -1,0 +1,48 @@
+package com.t1.model;
+
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Scanner;
+
+public class Main {
+
+	private static BufferedReader br;
+
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+
+		System.out.println("Listas Duplamentes encadeadas");
+		
+		FileInputStream stream = new FileInputStream("arquivo.txt");
+		InputStreamReader reader = new InputStreamReader(stream);
+		br = new BufferedReader(reader);
+		Scanner scanner = new Scanner(new FileReader("arquivo.txt"))
+				.useDelimiter("\\||\\n");
+		int op = 0;
+		
+		do {
+			System.out.println("MENU PRINCIPAL:");
+			System.out.println("\n1. Exibir Contatos:");
+
+			switch (op) {
+			case 1: {
+				scanner.hasNext();
+				{
+					String Nome = scanner.next();
+					String Telefone = scanner.next();
+
+					System.out.println(Nome);
+					System.out.println(Telefone);
+
+				}
+			}
+
+			}
+
+		} while (op != 4);
+	}
+
+}

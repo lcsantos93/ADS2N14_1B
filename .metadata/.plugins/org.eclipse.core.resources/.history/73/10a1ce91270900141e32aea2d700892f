@@ -1,0 +1,14 @@
+package com.t1.model;
+
+public class Contato {
+
+	private String nome;
+	private Integer numero;
+	public Integer getNumero() {
+		return numero;
+	}
+	public void setNumero(Integer numero) {
+		this.numero = numero;
+	}
+	
+}

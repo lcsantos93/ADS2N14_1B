@@ -1,0 +1,70 @@
+package com.t1.model;
+
+
+public class Lista {
+	
+
+	public Lista prox;
+    public Lista ant;
+	public Contato contato;
+    /**
+	 * @return the nome
+	 */
+	public String getNome() {
+		return nome;
+	}
+	/**
+	 * @param nome the nome to set
+	 */
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	/**
+	 * @return the num
+	 */
+	public int getNum() {
+		return num;
+	}
+	/**
+	 * @param num the num to set
+	 */
+	public void setNum(int num) {
+		this.num = num;
+	}
+	/**
+	 * @return the prox
+	 */
+	public Lista getProx() {
+		return prox;
+	}
+	/**
+	 * @param prox the prox to set
+	 */
+	public void setProx(Lista prox) {
+		this.prox = prox;
+	}
+	/**
+	 * @return the ant
+	 */
+	public Lista getAnt() {
+		return ant;
+	}
+	/**
+	 * @param ant the ant to set
+	 */
+	public void setAnt(Lista ant) {
+		this.ant = ant;
+	}
+	public Lista(String nome, int num, Lista prox, Lista ant) {
+		
+		this.nome = nome;
+		this.num = num;
+		this.prox = prox;
+		this.ant = ant;
+	}
+	public Lista() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+}

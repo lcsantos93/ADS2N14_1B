@@ -1,0 +1,19 @@
+package com.t1.model;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println("Listas Duplamentes encadeadas");
+		
+		Scanner ler = new Scanner(System.in);
+		
+		System.out.println("MENU PRINCIPAL:");
+		System.out.println("\n1. Exibir Contatos:");
+		
+	}
+
+}
